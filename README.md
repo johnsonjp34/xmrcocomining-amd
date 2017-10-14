@@ -14,7 +14,7 @@ OpenSSL_ENABLE
 
 MICROHTTPD_ENABLE
 
-Configure using Win64. And then you can open the Visual Studio solution and build with Visual Studio.
+Configure using Win64.Then hit generate. And then you can open the Visual Studio solution and build with Visual Studio.
 
 If this is useful to you please send XMR to 45zBmpQMRbvisgrViMojfqWEkdkKstkG5RsH4Rcpr6qGZhnHVzHKDQ8KMyQ1VPNxV6h94WV76cQHXGqQhptBmP9XBjU933V
 
