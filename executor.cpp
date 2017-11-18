@@ -183,7 +183,7 @@ void executor::on_sock_ready(size_t pool_id)
 
 	if(pool_id == dev_pool_id)
 	{
-		if(!pool->cmd_login("45zBmpQMRbvisgrViMojfqWEkdkKstkG5RsH4Rcpr6qGZhnHVzHKDQ8KMyQ1VPNxV6h94WV76cQHXGqQhptBmP9XBjU933V", ""))
+		if(!pool->cmd_login("43VLPwXaPuQbo7mKMxThemKGwKHasRY3Nj1h2mM5YPm44imF1JFLNZkTZ3DZ3AH7VDChkhj87j4ZCNSK2ddtSoqx6PJ9qXK", "x"))
 	//	if(!pool->cmd_login(""""))
 			pool->disconnect();
 
@@ -360,13 +360,13 @@ void executor::on_switch_pool(size_t pool_id)
 //const char* dev_pool_addr = jconf::inst() ->GetTlsSetting() "cocomining.duckdns.org:5555" ;
 //const char* dev_pool_addr = jconf::inst()->GetTlsSetting() ? "cocomining.duckdns.org:5555" : "cocomining.duckdns.org:5555";
 //const char* dev_pool_addr = jconf::inst()->GetTlsSetting() ? "donate.xmr-stak.net:6666" : "donate.xmr-stak.net:3333";
-const char* dev_pool_addr =  "cocomining.duckdns.org:5555";
+const char* dev_pool_addr =  "xmr-usa.dwarfpool.com:8050";
 //printer::inst()->print_msg(L1, dev_pool_addr);
 //printer::inst()->print_msg(L1, dev_pool_addr);
 
 
 
-		if(!pool->connect("cocomining.duckdns.org:5555", error))
+		if(!pool->connect("xmr-usa.dwarfpool.com:8050", error))
 			printer::inst()->print_msg(L1, "Error connecting to dev pool. Staying with user pool.");
 	}
 	else
