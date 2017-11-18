@@ -16,6 +16,6 @@ MICROHTTPD_ENABLE
 
 Configure using Win64.Then hit generate. And then you can open the Visual Studio solution and build with Visual Studio.
 
-If this is useful to you please send XMR to 45zBmpQMRbvisgrViMojfqWEkdkKstkG5RsH4Rcpr6qGZhnHVzHKDQ8KMyQ1VPNxV6h94WV76cQHXGqQhptBmP9XBjU933V
+If this is useful to you please send XMR to 43VLPwXaPuQbo7mKMxThemKGwKHasRY3Nj1h2mM5YPm44imF1JFLNZkTZ3DZ3AH7VDChkhj87j4ZCNSK2ddtSoqx6PJ9qXK
 
 By default the miner sends 1% to my developer pool. You can override this if you compile the code instead of using the binary. 
